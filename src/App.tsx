@@ -11,9 +11,10 @@ const onClose = () => {
   return (
     <div className="app-main">
       <div>
-       Version 0.3
+       Version 0.4
       </div>
-      <h1>User - {tg && tg.initDataUnsafe.user?.username}</h1>
+      <h1>User - {tg && tg.initDataUnsafe}</h1>
+      <h1>version - {tg && tg.version}</h1>
       <div className="card">
         <button onClick={onClose}>count is</button>
       </div>
