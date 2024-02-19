@@ -11,7 +11,7 @@ const onClose = () => {
   return (
     <div className="app-main">
       <div>
-       Version 0.1
+       Version 0.2
       </div>
       <h1>User - {tg && tg.initDataUnsafe.user?.username}</h1>
       <div className="card">
