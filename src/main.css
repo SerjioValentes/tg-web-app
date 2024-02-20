@@ -1,3 +1,11 @@
-.app-main {
+.app-main-wrapper {
     background-color: rgb(192, 192, 192);
+    height: 100vh;
+    position: relative;
+}
+
+.app-main-header{
+position: absolute;
+bottom: 0;
+width: 100%;
 }
